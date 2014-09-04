@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Ask"
+        android:id="@+id/askBtn"
+        android:textStyle="bold"
+        android:background="#ffffd230" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/askBtn"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:text="Answer"
+        android:id="@+id/answerBtn"
+        android:textStyle="bold"
+        android:background="#ffffd230" />
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/myFrag"
+        android:layout_toRightOf="@+id/askBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/startTxt"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/startHint"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:padding="5dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

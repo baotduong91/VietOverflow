@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VietOverflow</string>
+    <string name="title">Title</string>
+    <string name="postQ">Post Your Question</string>
+    <string name="postA">Post Your Answer</string>
+    <string name="answer">Answer</string>
+    <string name="yourAnswer">Your Answer</string>
+    <string name="description">Description</string>
+    <string name="startHint">Please select an option from the left.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="title_activity_fragment_main">FragmentMain</string>
+
+</resources>
